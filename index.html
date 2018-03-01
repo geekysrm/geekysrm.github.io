@@ -10,8 +10,40 @@
 </head>
 <body>
 
+<nav class="navbar">
+  <span class="open-slide">
+    <a href="#" onclick="openSlideMenu()">
+      <svg width="30" height="30">
+        <path d="M0,5 30,5" stroke="#fff" stroke-width="5" />
+        <path d="M0,14 30,14" stroke="#fff" stroke-width="5" />
+        <path d="M0,23 30,23" stroke="#fff" stroke-width="5" />
+      </svg>
+    </a>
+  </span>
 
+  <ul class="navbar-nav">
+    <li>
+      <a href="#whoiam">About Me</a>
+    </li>
+    <li>
+      <a href="#">Expertise</a>
+    </li>
+    <li>
+      <a href="#">Projects</a>
+    </li>
+    <li>
+      <a href="#">Contact Me</a>
+    </li>
+  </ul>
+</nav>
 
+<div id="side-menu" class="side-nav">
+  <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+  <a href="#whoiam">About Me</a>
+  <a href="#">Expertise</a>
+  <a href="#">Projects</a>
+  <a href="#">Contact Me</a>
+</div>
 
 
   <div class="pimg1">
@@ -30,10 +62,10 @@
     </div>
   </div>
 
-  <section class="section section-light">
+  <section class="section section-light" id="whoiam">
     <h2>Who I am</h2>
     <p>
-    Hi, you! <br> I am Soumya Ranjan Mohanty, a security enthusiast and an aspiring full-stack web developer.
+    Hi, <i>you!</i> <br> I am Soumya Ranjan Mohanty, a security enthusiast and an aspiring full-stack web developer.
     I am currently a sophomore in Computer Science Engineering at <a href="https://www.iiit-bh.ac.in">IIIT Bhubaneswar</a> . 
     <br>
     I love coding and code almost daily. I have special interest in information and network security. I have knowledge of various web technologies and have some projects to my name.
@@ -43,7 +75,7 @@
   <div class="pimg2">
     <div class="ptext">
       <span class="border trans">
-        Image Two Text
+        Under Construction
       </span>
     </div>
   </div>
@@ -58,7 +90,7 @@
   <div class="pimg3">
     <div class="ptext">
       <span class="border trans">
-        Image Three Text
+         Under Construction
       </span>
     </div>
   </div>
