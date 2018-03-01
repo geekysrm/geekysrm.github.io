@@ -80,7 +80,9 @@ body, html{
   text-align:center;
   padding:5px;
   letter-spacing:6px;
-  font-family: serif;
+  font-family: 'Lora', serif;
+  font-size: 24px;
+
 }
 
 
