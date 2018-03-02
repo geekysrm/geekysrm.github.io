@@ -73,6 +73,8 @@ body, html{
   background-color:transparent;
 }
 
+
+
 .subtitle{
   color: #fff;
   background-color: #253239;
@@ -146,6 +148,32 @@ body, html{
   margin-left:50px;
 }
 
+.social-icons{
+  display:flex;
+  justify-content: space-evenly;
+  background-color: rgba(156, 152, 152, 0.157);
+  width:500px;
+  margin: 0 auto;
+  flex-flow: row wrap;
+  
+}
+
+.github{
+  color:black;
+}
+
+.twitter{
+  color:#00aced;
+}
+
+.linkedin{
+  color: #007bb6;
+}
+
+.facebook{
+  color: #3b5998;
+}
+
 #main{
   transition:margin-left 0.5s;
   padding:20px;
@@ -169,6 +197,10 @@ body, html{
     line-height: 43px;
   }
   .navbar-nav{display:none}
+
+  .social-icons{
+    width: 350px;
+  }
   
 }
 
