@@ -244,6 +244,26 @@ body, html{
   left: -40px;
 }
 
+.direction-l .flag:before {
+  right: -40px;
+}
+
+.direction-r .ed1:before {
+  left: -65px;
+}
+
+.direction-l .ed2:before {
+  right: -54px;
+}
+
+.direction-r .ed3:before {
+  left: -43px;
+}
+
+.direction-r .exp1:before {
+  left: -52px;
+}
+
 .direction-l .flag:after {
   content: "";
   position: absolute;
