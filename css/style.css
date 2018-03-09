@@ -564,3 +564,194 @@ body, html{
 @media(min-width:568px){
   .open-slide{display:none}
 }
+
+
+.skillbar h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+a.skill-btn {
+    border: 2px solid #2ecc71;
+    border-radius: 0;
+    text-transform: uppercase;
+    padding: 14px 40px 10px;
+    font-weight: 700;
+    color: #2ecc71;
+    margin-top: 25px;
+    transition: 0.3s
+}
+a.skill-btn:hover {
+    background: #2ecc71;
+    color: #fff;
+}
+.skill-progress .progress {
+    height: 30px;
+    border-radius: 0;
+    margin-bottom: 30px;
+}
+.skill-progress .progress p {
+    margin: 0;
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    text-align: right;
+    padding-right: 10px;
+    color: #fff;
+}
+.skill-progress .progress-bar {
+    background-color: #2ecc71;
+}
+.skill-progress p {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #566366;
+    font-weight: 700;
+    font-size: 22px;
+}
+.skill-progress {
+    padding-top: 50px;
+}
+.skill-area {
+    padding: 80px 0;
+}
+
+
+.resume-area h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.cmn-btn {
+    display: inline-block;
+    border: 2px solid;
+    border-radius: 0;
+    padding: 14px 30px 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.cmn-btn.resume-btn {
+    color: #007BFF;
+    border-color: #007BFF;
+    margin-top: 30px;
+    transition: 0.3s
+}
+.resume-btn:hover {
+    background: #007BFF;
+    color: #fff;
+}
+.resume-area {
+    background: #f2f2f1;
+    padding: 80px 0;
+    position: relative;
+    z-index: 2;
+}
+.resume-area:after {
+    position: absolute;
+    left: 50%;
+    bottom: -50px;
+    content: "";
+    border-width: 25px;
+    border-color: #f2f2f1 transparent transparent transparent;
+    z-index: 3;
+    border-style: solid;
+    transform: translateX(-50%);
+}
+.bottom-border {
+    border-bottom: 1px solid #ddd;
+}
+.resume-education.work-exp {
+    padding: 0 0;
+}
+
+
+.contact-area {
+    background: #252e30;
+    padding: 80px 0;
+}
+.contact-details h1 {
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.contact-details {
+    margin-bottom: 30px;
+    
+}
+.contact-address {
+    margin-bottom: 30px;
+}
+.contact-mail p span {
+    color: #fff;
+    margin-right: 25px;
+    width: 40px;
+    display: inline-block;
+}
+.contact-mail p {}
+.contact-form label {
+    color: #fff;
+    font-size: 16px;
+}
+.contact-form input,
+.contact-form textarea {
+    border-radius: 0;
+    background: #4b5456;
+    border: 1px solid #4b5456;
+    box-shadow: none;
+}
+
+.form-control{
+  color: #fff;
+}
+
+.contact-form .form-control:focus {
+    background: #4b5456;
+    border: 1px solid #4b5456;
+    box-shadow: none;
+    color:white;
+}
+.contact-form textarea {
+    resize: none;
+}
+.btn.submit-btn {
+    background: #191f21;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 0;
+    padding: 12px 50px 10px;
+    margin-top: 20px;
+    transition: 0.3s
+}
+.submit-btn:hover {
+    cursor: pointer;
+    background: #007BFF;
+}
+.contact-form {
+    margin-top: 60px;
+}
+.contact-form label span {
+        color: white;
+
+
+}
+.footer-area {
+    background: #191f21;
+    padding: 60px 0;
+}
+.copyright {
+    color: #4b5456;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.footer-social-links a {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    background: #4b5456;
+    border-radius: 50%;
+    font-size: 25px;
+    margin-right: 10px;
+}
