@@ -591,6 +591,9 @@ body, html{
     height:70%;
 
 }
+#whoiam{
+  margin-top: 10px;
+}
 }
 
 @media(min-width:568px){
