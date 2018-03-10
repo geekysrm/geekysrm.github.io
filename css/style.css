@@ -343,7 +343,17 @@ body, html{
   margin: 1em 0 0 0.75em;
 }
 
+.image-container {
+  display: flex;
+  justify-content: center;
+}
 
+#mypic{
+    border-radius: 50%;
+    width:20%;
+    height:20%;
+
+}
 
 /* ================ Timeline Media Queries ================ */
 
@@ -558,7 +568,29 @@ body, html{
     width: 350px;
     justify-content: space-around;
   }
+
   
+.direction-r .ed1:before {
+  left: 103px;
+}
+
+.direction-l .ed2:before {
+  left: 86px;
+}
+
+.direction-r .ed3:before {
+  left: 77px;
+}
+
+.direction-r .exp1:before {
+  left:105px;
+}
+  #mypic{
+    border-radius: 50%;
+    width:70%;
+    height:70%;
+
+}
 }
 
 @media(min-width:568px){
