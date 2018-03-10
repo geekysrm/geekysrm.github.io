@@ -48,7 +48,6 @@
   </div>
 </nav>
 
-
   <div class="pimg1">
     <br>
     <br>
@@ -541,7 +540,7 @@
 
           <div class="contact-mail">
             <p>
-              <i class="fa fa-envelope contact-icons"></i>&nbsp;&nbsp;<span>Email:</span><a href="mailto:name@rapidtables.com?subject=I%20just%20saw%20your%20personal%20website">soumyacool2012@gmail.com</a> </p>
+              <i class="fa fa-envelope contact-icons"></i>&nbsp;&nbsp;<span>Email:</span><a href="mailto:soumyacool2012@gmail.com?subject=I%20just%20saw%20your%20personal%20website">soumyacool2012@gmail.com</a> </p>
             <p>
               <i class="fa fa-phone contact-icons"></i>&nbsp;&nbsp;<span>Phone:</span><a href="tel:+917077779815">+91-70-7777-9815</a></p>
           </div>
@@ -555,21 +554,21 @@
               <label for="name">Name
                 <span>*</span>
               </label>
-              <input name="name" type="name" class="form-control" id="name">
+              <input name="name" type="name" class="form-control" id="name" required aria-required=”true” pattern="[a-zA-Z][a-zA-Z0-9\s]*" title="Please enter your name e.g.: John Doe">
             </div>
             <div class="form-group">
               <label for="email">Email Address
                 <span>*</span>
               </label>
-              <input type="email" name="email" class="form-control" id="email">
+              <input type="email" name="email" class="form-control" id="email" required aria-required=”true” pattern="(?!(^[.-].*|[^@]*[.-]@|.*\.{2,}.*)|^.{254}.)([a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@)(?!-.*|.*-\.)([a-zA-Z0-9-]{1,63}\.)+[a-zA-Z]{2,15}" title="Please enter valid email e.g.: example@example.com">
             </div>
             <div class="form-group">
               <label for="message">Message
                 <span>*</span>
               </label>
-              <textarea name="message" class="form-control" id="message" rows="10"></textarea>
+              <textarea name="message" class="form-control" id="message" rows="10" required aria-required=”true”></textarea>
             </div>
-            <button type="submit" class="btn submit-btn"><span><i class="fab fa-telegram-plane"></i>&nbsp;&nbsp;&nbsp;Send Message</span></button>
+            <button type="submit" class="btn submit-btn" id="submit-btn"><span><i class="fab fa-telegram-plane"></i>&nbsp;&nbsp;&nbsp;Send Message</span></button>
           </form>
         </div>
       </div>
