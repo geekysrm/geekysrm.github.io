@@ -668,7 +668,12 @@ a.skill-btn:hover {
     color: #007BFF;
     border-color: #007BFF;
     margin-top: 30px;
-    transition: 0.3s
+    transition: 0.3s;
+    padding: 12px 50px 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 0;
+    margin-top: 20px;
 }
 .resume-btn:hover {
     background: #007BFF;
@@ -711,10 +716,12 @@ a.skill-btn:hover {
 }
 .contact-details {
     margin-bottom: 30px;
+    color:rgba(208, 221, 224, 0.432);
     
 }
 .contact-address {
     margin-bottom: 30px;
+    color: rgba(208, 221, 224, 0.432);
 }
 .contact-mail p span {
     color: #fff;
@@ -733,6 +740,7 @@ a.skill-btn:hover {
     background: #4b5456;
     border: 1px solid #4b5456;
     box-shadow: none;
+    color: #fff;
 }
 
 .form-control{
