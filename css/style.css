@@ -78,7 +78,10 @@ body, html{
   background-color:transparent;
 }
 
-
+#para-whoiam{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 120%;
+}
 
 .subtitle{
   color: #fff;
