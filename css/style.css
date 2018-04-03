@@ -271,6 +271,9 @@ body, html{
 .direction-r .exp1:before {
   left: -52px;
 }
+.direction-l .exp1:before {
+  right: -29px;
+}
 
 .direction-l .flag:after {
   content: "";
