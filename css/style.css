@@ -596,6 +596,9 @@ body, html{
 .direction-r .exp1:before {
   left:105px;
 }
+.direction-r .exp1:before {
+  right:106px;
+}
   #mypic{
     border-radius: 50%;
     width:70%;
