@@ -8,7 +8,7 @@ body, html{
   color:#666;
 }
 
-.pimg1, .pimg2, .pimg3, .pimg4{
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5{
   position:relative;
   opacity:0.70;
   background-position:center;
@@ -39,6 +39,11 @@ body, html{
 
 .pimg4{
   background-image:url('../img/image1.jpg');
+  min-height:400px;
+}
+
+.pimg5{
+  background-image:url('../img/image6.jpg');
   min-height:400px;
 }
 
@@ -551,7 +556,7 @@ body, html{
 
 
 @media(max-width:568px){
-  .pimg1, .pimg2, .pimg3, .pimg4{
+  .pimg1, .pimg2, .pimg3, .pimg4, .pimg5{
     background-attachment:scroll;
   }
   .ptext{    
@@ -597,6 +602,9 @@ body, html{
 #whoiam{
   margin-top: 100px;
 }
+
+
+
 }
 
 @media(min-width:568px){
